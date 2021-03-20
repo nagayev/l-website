@@ -1,0 +1,14 @@
+[
+  {
+    "header": "Compatibly",
+    "content": "L is fully compatible with C<br /> You can use your favourite C libraries"
+  },
+  {
+    "header": "lpm",
+    "content": "lpm is a package manager & build system for L"
+  },
+  {
+    "header": "stdlib",
+    "content": "includes support of async functions, webserver and more!"
+  }
+]

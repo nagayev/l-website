@@ -4,6 +4,7 @@ import withAutoplay from "react-awesome-slider/dist/autoplay";
 
 import dark from "./dark";
 
+const INTERVAL = 6000; //6seconds
 const AutoPlayer = withAutoplay(AwesomeSlider);
 
 type SlideProps = {
@@ -45,7 +46,7 @@ function Slider() {
         <AutoPlayer
           play={true}
           cancelOnInteraction={false} // should stop playing on user interaction
-          interval={4000}
+          interval={INTERVAL}
         >
           {features.map((item, i) => {
             return (

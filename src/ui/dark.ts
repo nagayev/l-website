@@ -9,6 +9,16 @@ const me: CSSProperties = {
   msFilter: "grayscale(100%)",
   filter: "grayscale(100%)",
 };
+
+const download: CSSProperties = {
+  float:"right",
+  width:"100px",
+  height:"50px",
+  marginRight: "20%",
+  borderRadius:"5%",
+  backgroundColor:"darkgrey"
+};
+
 const about: CSSProperties = {
   textAlign: "left",
   marginLeft: "30%",
@@ -43,6 +53,7 @@ const dots: CSSProperties = {
 const dark = {
   a,
   about,
+  download,
   pageLayout,
   me,
   languages,
